@@ -1,0 +1,17 @@
+{
+    "name": "sergey/task",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergey Srabionyan",
+            "email": "prinzplanloser0514@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/MyProject/"
+        }
+    },
+    "require": {}
+}
