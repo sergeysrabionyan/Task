@@ -114,7 +114,6 @@ class User extends ActiveRecordEntity
             throw new InvalidArgumentException('Неправильный пароль');
         }
 
-
         $user->refreshAuthToken();
         $user->save();
         return $user;
